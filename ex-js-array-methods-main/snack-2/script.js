@@ -5,4 +5,9 @@ const people = [
 ];
 
 // Stampa in console tutti i nomi
+const names = people.map(function(person) {
+  return person.name;
+});
+
+console.log(names);
 // Risultato: 'Paolo', 'Giulia', 'Marco'
